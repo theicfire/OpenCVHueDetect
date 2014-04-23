@@ -14,8 +14,9 @@ Installation
 - Run either VideoObjectDetect or ObjectPositionDetect.
 
 ####Linux (from the command line):
-#####Compile with:
-$ javac -cp "bin:javacv-bin/*:javacv-cppjars/*" src/tracker/VideoObjectDetect.java
+#####Compile:
+$ mkdir bin
+$ javac -d bin -cp "bin:javacv-bin/*:javacv-cppjars/*" src/tracker/*
 #####Run with:
 $ java -cp "bin:javacv-bin/*:javacv-cppjars/*" tracker.VideoObjectDetect
 
